@@ -233,18 +233,5 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ---
 
-## 🛡 Security & Best Practices
-
-* **Zero Leaked Secrets**: Connection credentials are read strictly from environment variables and excluded via `.gitignore`.
 
 
-* **Parameterized Cypher**: All dynamic queries use parameter maps to eliminate Cypher injection risks.
-
-
-* **Graceful Degradation**: Integrated health checks and connection pools handle transient database network limits gracefully.
-
-
-
-```
-
-### Schema Diagram
